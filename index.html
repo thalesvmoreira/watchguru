@@ -7,6 +7,7 @@
   <title></title>
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -232,6 +233,15 @@
                   <input type="text" name="valor" id="Valor" class="form-control">
                 </div>
               </div>
+              <div class="form-group col-sm-4">
+                <label class="control-label" for="Data">Data de Entrega</label>
+                <div class="input-group date" data-provide="datepicker">
+                  <input type="text" name="Data" id="Data" class="form-control">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="modal-footer">
@@ -245,6 +255,8 @@
 
   <script src="js/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script> 
+  <script src="js/bootstrap-datepicker.pt-BR.min.js"></script> 
   <script src="js/main.js"></script>
 </body>
 </html>
